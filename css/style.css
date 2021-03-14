@@ -1,0 +1,592 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* =========================================================== start navbar ================================================================= */
+nav {
+  margin-bottom: 20px;
+}
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+nav .navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+}
+nav {
+  padding-top: 20px;
+}
+nav ul li {
+  padding-left: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+  
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+nav ul .active::after {
+  content: '';
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  background-color: #fff;
+}
+.row {
+  margin-right: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+
+/* =========================================================== start header ================================================================= */
+
+header {
+  height: 100vh;
+  background-image: url(../imgs/intro.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+header .caption h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+header .caption p {
+
+  font-size: 50px;
+  font-weight: 400;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+
+
+
+/* ======================================================= start about me section ==================================================== */
+
+.about .bar {
+background-color: #eee;
+} 
+.info-part {
+  background-color: #fff;
+}
+.about .testimonial, .about-info {
+  margin-bottom: 50px;
+}
+.about .about-info .title {
+    font-weight: 600;
+}
+.about .about-me h3{
+  position: relative;
+}
+.about .about-me h3::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  height: 3px;
+  width: 15%;
+  background-color: #0078ff;
+}
+.about .about-me p {
+  word-spacing: 2px;
+  line-height: 2;
+}
+
+
+@media (max-width:767px) {
+
+  .about .testimonial, .about-info p {
+    font-size: 15px;
+  }
+  .about .about-me {
+    margin-top: 3rem;
+  }
+}
+
+
+.about .skills .item1 {
+  width: 85%;
+}
+.about .skills .item2 {
+  width: 75%;
+}
+.about .skills .item3 {
+  width: 50%;
+}
+.about .skills .item4 {
+  width: 90%; 
+}
+.about .info .prog{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* ======================================================= start SERVICES section ==================================================== */
+
+.services {
+  padding:40px ;
+}
+.services .service-caption {
+  margin-bottom: 30px;
+}
+.services .service-caption h2{
+  font-size: 3rem ;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services .service-caption p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 2;
+}
+.services .service-caption .under-line {
+  height: 5px;
+  width: 40px;
+  background-color:#0078ff;
+  margin: 0 auto;
+}
+.services .card-item {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.services .card-item .icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px auto;
+  box-shadow: 0px 0px 4px 10px #0078ff;
+  transition: all 500ms ease-in-out ;
+}
+.services .card-item .icon i {
+  font-size: 60px;
+  line-height: 1.8;
+}
+.services .card-item h3 {
+margin-top: 20px;
+}
+.services .card-item p {
+  margin-top: 15px;
+}
+.card-item:hover .icon {
+  box-shadow: 0px 0px 4px 10px #bfc3c7;
+  background-color: #0078ff;
+  color: #fff;
+}
+
+/* ======================================================= start counter section ==================================================== */
+
+.counters {
+  background-image: url(../imgs/counter-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.counters .cover {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 120, 255, 0.7);
+  padding: 8rem;
+}
+.counters .counter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.counters .counter-item .icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 10px #cde1f8;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.counters .counter-item .icon i {
+  font-size: 40px;
+  line-height: 1.8;
+}
+.counters .counter-item span {
+  font-size: 3rem;
+}
+.counters .counter-item p {
+  margin-bottom:0 ;
+}
+
+
+/* ======================================================= start SERVICES section ==================================================== */
+
+.portfolio {
+  padding:40px ;
+}
+.portfolio .portfolio-caption {
+  margin-bottom: 30px;
+}
+.portfolio .portfolio-caption h2{
+  font-size: 3rem ;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.portfolio .portfolio-caption p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 2;
+}
+.portfolio .portfolio-caption .under-line {
+  height: 5px;
+  width: 40px;
+  background-color:#0078ff;
+  margin: 0 auto;
+}
+.portfolio .card-item {
+  background-color: #fff;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.portfolio .card-item .title-card {
+  padding: 20px 0;
+}
+.portfolio .card-item .title-card .plus{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  }
+.portfolio .card-item h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+.portfolio .card-item .card-caption span:first-of-type {
+    color: #0078ff;
+}
+.portfolio .card-item .card-caption span:last-of-type {
+  color: #6b7075;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.portfolio .card-item .title-card .icon-ring {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #0078ff;
+  box-shadow: 0px 0px 0px 5px #0078ff;
+}
+.portfolio .card-item .img {
+  overflow: hidden;
+}
+.portfolio .card-item img {
+  transition: transform 500ms ease-in-out;
+}
+.portfolio .card-item:hover img {
+  transform: scale(1.2);
+}
+
+/* ======================================================= start auther section ==================================================== */
+
+.auther {
+  background-image: url(../imgs/auther-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 !important;
+}
+.auther .cover {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(0, 120, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auther .auther-img {
+  margin: 20px 0;
+}
+.auther .auther-info span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.auther .auther-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.auther .auther-text p {
+  margin-top: 10px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 992px) {
+  .auther .auther-text p {
+    width: 65%;
+  }
+  .auther .content {
+    padding: 5rem;
+  }
+}
+
+.auther .auther-text .qoute {
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.auther .auther-text span i {
+  font-size: 30px;
+}
+.auther .slide-polit {
+  margin-top: 15px;
+}
+.auther .slide-polit span {
+  width: 25px;
+  height: 7px;
+  margin: 5px 5px;
+  background: #cde1f8;
+  display: inline-block;
+  cursor: pointer;
+}
+.auther .slide-polit .active-polit {
+  background-color: #000;
+}
+
+/* ======================================================= start blog section ==================================================== */
+.blog {
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.blog .blog-caption {
+  margin-bottom: 30px;
+}
+.blog .blog-caption h2{
+  font-size: 3rem ;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.blog .blog-caption p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 2;
+}
+.blog .blog-caption .under-line {
+  height: 5px;
+  width: 40px;
+  background-color:#0078ff;
+  margin: 0 auto;
+}
+.blog .blog-card  {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+
+}
+.blog .blog-card .blog-title{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog .blog-card h5 {
+  margin-top: 25px;
+  text-align: left;
+  padding-left: 10px;
+}
+.blog .blog-card p {
+  font-weight: 300;
+  text-align: left;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+.blog .blog-card .blog-title span{
+  position: absolute;
+  background-color: #0078ff;
+  padding: 5px 15px;
+  border-radius: 7px;
+  color: #fff;
+}
+.blog .blog-card .blog-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.15) ;
+  background-color: #f7f7f7;
+}
+.blog .blog-card .blog-footer .blog-person {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+.blog .blog-card .blog-footer .blog-person:hover span a  {
+  color: #0078ff;
+}
+.blog .blog-card .blog-footer .blog-person img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.blog .blog-card .blog-footer .blog-person span {
+  padding: 20px 10px;
+}
+.blog .blog-card .blog-footer .blog-person span a {
+  transition: color 500ms ease-in-out ;
+  color: #000;
+}
+.blog .blog-card .blog-footer .blog-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.blog .blog-card .blog-footer .blog-date span {
+  font-size: 16px;
+    margin-left: 5px;
+}
+
+/* ======================================================= start contact section ==================================================== */
+
+.contact {
+  background-image: url(../imgs/auther-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+}
+.contact .cover {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 120, 255, 0.7);
+  padding: 8rem;
+}
+.contact .contact-content {
+  background-color: #fff;
+  padding: 40px;
+}
+.contact .contact-caption {
+  margin-bottom: 30px;
+}
+.contact .contact-caption h2{
+  font-size: 1.6rem ;
+}
+.contact .contact-caption .under-line {
+  height: 5px;
+  width: 100px;
+  background-color:#0078ff;
+}
+.contact .contact-content form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.contact .contact-content form input,
+.contact .contact-content form textarea {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  text-transform: capitalize;
+  color: #717171e3;
+  border-radius: 5px;
+}
+.contact .contact-content form button {
+  box-shadow: 0 0 0 5px #0078ff;
+  border: none;
+  width: 45%;
+  margin-top: 20px;
+  background-color: #0078ff;
+  color: #fff;
+  padding: 13px 0;
+  border-radius: 30px;
+  transition: all 500ms ease-in-out;
+}
+.contact .contact-content form button:hover {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
+  background-color: #0561c9;
+  
+}
+.contact .contact-content .contact-info {
+  margin-bottom: 20px;
+}
+.contact .contact-content .contact-info p {
+  margin-top: 50px;
+  font-weight: 300;
+  word-spacing: 5px;
+  font-size: 17px;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact ul li {
+  padding: 5px;
+  display: flex;
+}
+.contact .contact-content .contact-info ul li span {
+  margin-right: 20px;
+  color: #0078ff;
+  font-weight: 300;
+}
+.contact .contact-content .contact-info .icon-lable {
+  font-weight: 200;
+}
+.contact .contact-content .social-media ul {
+  display: flex;
+}
+.contact .contact-content .social-media ul li i {
+  box-shadow: 0 0 0 5px #0078ff;
+  border-radius: 50%;
+  margin: 10px;
+  height: 45px;
+  width: 45px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+.contact .contact-content .social-media ul li:hover i {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
+  background-color: #0078ff;
+  color: #fff;
+}
+
+@media (max-width:992px) {
+  .contact .cover {
+    padding: 40px;
+  }
+  .contact .contact-content .social-media ul li i {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+  }
+  .contact .contact-content .contact-info p {
+    margin-top: 10px;
+  }
+  .contact .contact-caption h2 {
+    margin-top: 10px;
+  }
+}
